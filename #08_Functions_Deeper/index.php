@@ -44,7 +44,7 @@ function localTest()
 
 localTest();
 
-echo $x;
+// echo $x;
 
 function staticVariable()
 {
