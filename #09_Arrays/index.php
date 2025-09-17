@@ -62,7 +62,7 @@ echo "<br>";
 echo "<br>";
 
 
-array_push($matrix,10);
+array_push($matrix,values: 10);
 
 echo "<br>";
 echo "<br>";
