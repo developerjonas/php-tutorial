@@ -4,7 +4,14 @@
 //Indexed array
 $fruits = ["Apple", "Mango", "Banana"];
 
-echo $fruits[0];
+echo $fruits[1];
+
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
 
 
 // Associative array
@@ -13,7 +20,14 @@ $person = [
     "age"=>22
 ];
 
-echo $person['name'];
+echo $person['age'];
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
 
 // Multidimensional array 
 
@@ -24,7 +38,14 @@ $matrix = [
     [7,8,9]
 ];
 
-echo $matrix[1][2];
+echo $matrix[2][2];
+
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
 
 
 // Methods of earrays
@@ -34,12 +55,40 @@ echo $matrix[1][2];
 echo count($matrix);
 
 
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+
 array_push($matrix,10);
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
 
 echo count($matrix);
 
 
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+
 array_pop($matrix);
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
 
 echo count($matrix);
 
