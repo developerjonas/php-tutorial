@@ -40,6 +40,15 @@
     </nav>
 
     <div class="container my-5">
+      <h1>Hello, world!</h1>
+      <div class="col-lg-8 px-0">
+        
+
+        <a href="add.php" class="btn btn-primary">Add new Customer</a>
+      </div>
+    </div>
+
+    <div class="container my-5">
       <table class="table">
   <thead>
     <tr>

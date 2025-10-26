@@ -40,12 +40,20 @@
     </nav>
 
     <div class="container my-5">
+      <h1>Hello, world!</h1>
+      <div class="col-lg-8 px-0">
+        
+
+        <a href="add.php" class="btn btn-primary">Add new Customer</a>
+      </div>
+    </div>
+
+    <div class="container my-5">
       <table class="table">
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
+      <th scope="col">Name</th>
       <th scope="col">Phone Num</th>
       <th scope="col">Actions</th>
     </tr>
@@ -54,25 +62,21 @@
     <tr>
       <th scope="row">1</th>
       <td>Mark</td>
-      <td>Otto</td>
       <td>98000000000</td>
       <td><button type="button" class="btn btn-warning">Edit</button><span>    </span><button type="button" class="btn btn-danger">Delete</button>
 
 </td>
-      
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
-      <td>Thornton</td>
       <td>970000000000</td>
-            <td><button type="button" class="btn btn-warning">Edit</button><span>    </span><button type="button" class="btn btn-danger">Delete</button>
+            <td><button type="button"  class="btn btn-warning">Edit</button><span>    </span><button type="button" class="btn btn-danger">Delete</button>
 
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>John</td>
-      <td>Doe</td>
       <td>96000000000</td>
             <td><button type="button" class="btn btn-warning">Edit</button><span>    </span><button type="button" class="btn btn-danger">Delete</button>
 
